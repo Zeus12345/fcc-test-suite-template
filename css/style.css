@@ -1,0 +1,105 @@
+body, html{
+    height: 100%;
+    padding: 0;
+    /* display: grid; */
+}
+
+header{
+    width: 100%;
+    position: fixed;
+}
+
+nav{
+    width: 100%;
+}
+
+.nav-top{
+    width: 50%;
+    float: right;
+}
+
+.navigation-links{
+    width: 100%;
+    list-style:none;
+    display: inline;
+    float: right;
+    text-align: right;
+}
+
+.navigation-links li {
+    display: inline;
+    text-align: right;
+}
+
+.container-main{
+    height: 100%;
+    background: #e0ebe8;
+}
+
+.main-text{
+    position: absolute;
+    top:50%;
+    left:50%; 
+}
+
+.portfolio{
+    padding-top: 5rem;
+}
+
+.nav-menu-link{
+    margin: 5px 40px;
+    text-align: right;
+}
+
+.container-portfolio{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem 0;
+    flex-wrap: wrap;
+
+}
+
+.container-portfolio .card{
+    width: 50%;
+}
+
+.card-body h5 {
+    text-align: center;
+}
+
+.button-show-all{
+    width: 100%;
+    text-align: center;
+}
+
+.caption-work{
+    width: 100%;
+    text-align: center;
+}
+
+.section-social{
+    padding: 10rem 0;
+    background: #C8F7C5;
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-links div{
+    width: 10rem;
+    height: 10rem;
+    /* padding: 10px; */
+    border: 1px solid black;
+    border-radius: 100%;
+    line-height: 10rem;
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    background: #22313F;
+    color: white;
+}
